@@ -1,0 +1,20 @@
+*,
+*::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32rem;
+  border: 2px solid green;
+  border-radius: 2rem;
+  width:30rem;
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+}
